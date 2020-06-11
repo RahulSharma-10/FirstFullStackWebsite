@@ -45,8 +45,7 @@ app.use("/index/:id/comments", commentRoutes);
 app.use("/index", productsRoutes);
 app.use(indexRoutes);
 
-
-
-app.listen(3000, function(req,res){
-	console.log("Connected");
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log("Server Has Started!");
 });
