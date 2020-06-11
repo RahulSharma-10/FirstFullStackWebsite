@@ -1,5 +1,6 @@
-body {
-  background-color: #000;
+body{
+	background: black;
+	font-family:"Nunito", sans-serif;
 }
 #landing-header {
   z-index: 1;

@@ -1,3 +1,40 @@
+body{
+	background: black;
+	font-family:"Nunito", sans-serif;
+	color: rgb(256, 256, 256);
+}
+#mainNavbar{
+	font-size: 1.5rem;
+	font-weight:100;
+	display:none;
+}
+.news{
+	
+	font-size: 1.5rem;
+	margin: 0 0 0 410px;
+}
+.prod{
+	color: rgb(256, 256, 256);
+}
+.one{
+	font-family:Nunito;
+	font-size:5rem;
+	font-weight:100;
+}
+.red{
+	color:#EA1C2C;
+}
+#mainNavbar .navbar-brand{
+	color:#EA1C2C;
+	font-size:1.5rem;
+	font-family:Nunito;
+}
+#mainNavbar .nav-link{
+	color:white;
+}
+#mainNavbar .nav-link:hover{
+	color:#EA1C2C;
+}
 .thumbnail img{
 	width:100%;
 }

@@ -1,20 +1,17 @@
 <%- include("../partials/header.ejs") %>
 
 <div class="container">
-<header class="jumbotron" style="margin: 100px 0" >
-	<div class="container">
-	<h1>
-		MOOD<span>/</span>BOARD
-		
-	</h1>
-	<p>
-		Exciting Room Designs, Posters and much more!
-	</p>
-	<p>
-	<a class="btn btn-dark btn-large" href="/index/new">Suggest a New Product</a>
-	</p>
-	</div>
-</header>
+<form class="inline">
+	<div class="row align-items-center check ">
+    <div class="col-lg-12 d-none d-lg-block">
+      <h1 class="text-center text-white one">MOOD<span class="red">/</span>BOARD</h1>      
+      <h1 class="text-center text-white one">MOOD<span class="red">/</span>BOARD</h1>
+      <h1 class="text-center text-white one">MOOD<span class="red">/</span>BOARD</h1>
+	<a class="btn btn-danger btn-xl news" class="text-center text-white one" href="/index/new">Suggest a New Product</a>
+	
+    </div>
+	 </div>
+	</form>
 
 <div class="row text-center">
 	<% product.forEach(function(product){ %>
@@ -23,7 +20,7 @@
 		<img src="<%= product.image%>" class="img-fluid">
 			<a href="/index/<%=product._id%>" class="btn btn-primary btn-block btn-sm"><strong>Rs.<%= product.price%></strong></a>
 		<div class="caption">
-		<h4><%= product.name %> </h4>
+		<h4 class="prod"><%= product.name %> </h4>
 		</div>
 		</div>
 	</div>
