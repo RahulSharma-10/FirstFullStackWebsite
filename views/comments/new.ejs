@@ -1,0 +1,22 @@
+<%- include("../partials/header.ejs") %>
+<div class="container" style="margin:100px">
+
+<h1 style="text-align: center">
+	Add New Comment to <%= product.name %>
+</h1>
+  <div style="width: 30%; margin: 25px auto;">
+<form action="/index/<%= product._id %>/comments" method="POST">
+	 <div class="form-group">
+	<input class="form-control" type="text" name="comments[text]" placeholder="Text">
+	</div>
+	 <!-- <div class="form-group">
+	<input class="form-control" type="text" name="comments[author]" placeholder="Author">
+	</div> -->
+	<button  class="btn btn-lg btn-primary btn-block">
+		Submit
+	</button>
+</form> 
+	</div>
+<a href="/index" class="btn btn-sm btn-danger">Back</a>
+</div>
+<%- include("../partials/footer.ejs") %>
