@@ -5,7 +5,7 @@ The Website is designed for MoodBoards, and is my first full stack Web Applicati
 1.  **Product Display Platform** to view products.
 2.  **Simple Login and a Sign up BackEnd Interface**
 3.  **Additional Feature** to only add Products once authorised and logged in.
-4.  **Aesthetically Pleasing Designs** to suit your vibe!
+4.  **Aesthetically Pleasing Designs** to suit your vibe.
 
 # Preview:
 
@@ -20,3 +20,5 @@ The Website is designed for MoodBoards, and is my first full stack Web Applicati
 
 ==> _Adding a NewProduct_:
 ![NewProduct](https://user-images.githubusercontent.com/66758271/88245852-4b708180-ccb6-11ea-89f7-003766d727e5.PNG)
+
+# Deployed
